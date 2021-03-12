@@ -7,28 +7,53 @@
 
 <body>
   <h1>Coding Form!</h1>
-  <form>
-    <div>Email</div>
-    <input type="email" name="email">
-    <div>Why is coding cool?</div>
-      <select name="why">
+  <form action="" method="get" class="first-form">
+
+    <div class="first-form">
+      <label for="email">Email</label>
+    </div>
+    <div class="first-form">
+      <input type="email" name="email" id="email" required>
+    </div>
+
+    <div class="first-form">
+      <label for="why">Why is coding cool?</label>
+    </div>
+    <div class="first-form">
+      <select name="why" id="why" required>
         <option value="interesting">Because it's interesting</option>
         <option value="fun">Because it's fun</option>
         <option value="powerful">Because it's powerful</option>
       </select>
-    <div>Favorite Language(choose one)</div>
+    </div>
+
+    <div class="first-form">
+      <label for="favorite-lang">Favorite Language(choose one)</label>
+    </div>
+    <div class="first-form">
       <input type="radio" name="language" value="html" /> HTML
       <input type="radio" name="language" value="css" /> CSS
       <input type="radio" name="language" value="js" /> JavaScript
+    </div>
 
-    <div>Would you like to sign up for more information?</div>
+    <div class="first-form">
+      <label for="sign-up">Would you like to sign up for more information?</label>
+    </div>
+    <div class="first-form">
       <input type="checkbox" name="information" value="yes" /> Sign me up!
-      <div>Comments</div>
+    </div>
+
+    <div class="first-form">
+      <label for="comments">Comments</label>
+    </div>
+    <div class="first-form">
       <textarea name="comments" cols="25" rows="10"></textarea>
-      <div>
-        <input type="submit" name="submit" value="Submit" />
-      </div>
+    </div>
+    <div class="first-form">
+      <input type="submit" name="submit" value="Submit">
+    </div>
   </form>
+
 </body>
 
 </html>
