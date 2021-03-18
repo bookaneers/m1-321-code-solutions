@@ -2,7 +2,12 @@ body {
   font-family:'Courier New', Courier, monospace
 }
 
-h1, h2, p {
+h1, h2 {
+  font-family: Lato, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+p {
   font-family: Lato, Helvetica, sans-serif;
   line-height: 1.5;
 }
