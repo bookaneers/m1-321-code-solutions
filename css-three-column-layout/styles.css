@@ -1,0 +1,54 @@
+img {
+  width: 125px;
+  padding: 2rem;
+}
+
+h3 {
+  color: white;
+  font-size: xx-large;
+}
+
+h2 {
+  font-size: x-large;
+  padding-top: 0.5rem;
+}
+
+p {
+  color: lightgray;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  background-color: rgb(22, 160, 210);
+  padding: 4rem;
+  font-family: lato, sans-serif, serif;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+}
+
+.column-full {
+  flex-basis: 100%;
+  color: white;
+}
+
+.column-third {
+  flex-basis: calc(100% / 3);
+  color: white;
+  padding-top: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.icon {
+  background-color: white;
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
