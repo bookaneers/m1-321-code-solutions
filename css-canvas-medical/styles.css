@@ -1,0 +1,53 @@
+
+.container {
+  max-width: 992px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-image {
+  flex: 10 1 auto;
+}
+
+.nav-image img {
+  max-height: 30px;
+}
+
+.nav-1,
+.nav-2,
+.nav-3,
+.nav-4,
+.nav-5 {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.nav a {
+  text-decoration: none;
+  text-align: center;
+  font-family: lato, serif, sans-serif;
+  color: rgb(166, 166, 166);
+}
+
+.nav button {
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+.nav button:hover {
+  background-color: rgb(4, 80, 105);
+  border-radius: 10%;
+}
+
+
+/* Rounded border */
+hr.rounded {
+  margin-top: 15px;
+  border-top: 1px solid rgb(216, 216, 216);
+}
