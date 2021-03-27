@@ -2,7 +2,7 @@ var fullName = 'Fernando Figueiredo';
 var isCool = true;
 var totalPets = 2;
 console.log('Your full name: ' + fullName);
-console.log('Are you coll? ' + isCool);
+console.log('Are you cool? ' + isCool);
 console.log('How many pets do you live with? ' + totalPets);
 console.log(typeof fullName);
 console.log(typeof isCool);
