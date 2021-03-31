@@ -1,6 +1,6 @@
 
 .container {
-  max-width: 1150px;
+  max-width: 1400px;
   margin: auto;
   padding-top: 30px;
 }
@@ -14,10 +14,12 @@
 .nav {
   display: flex;
   align-items: center;
+  max-width: 1150px;
+  margin: auto;
 }
 
 .nav-image {
-  flex: 15 1 auto;
+  flex: 20 1 auto;
 }
 
 .nav-image img {
@@ -41,6 +43,34 @@
   color: rgb(166, 166, 166);
 }
 
+.hero button {
+  background-color: rgb(1, 61, 81);
+  border-radius: 5%;
+  border: none;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: inline-block;
+  color: whitesmoke;
+  font-size: 23px;
+  margin-top: 1rem;
+}
+
+.learn-more button {
+  background-color: rgb(1, 61, 81);
+  border-radius: 5%;
+  border: none;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: inline-block;
+  color: whitesmoke;
+  font-size: 23px;
+  margin-top: 1rem;
+}
+
 .nav button {
   background-color: transparent;
   border: none;
@@ -59,27 +89,80 @@ hr {
 }
 
 .hero {
-  display: flex;
   background: url("images/hero.jpg");
   height: 575px;
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 1150px;
+  justify-content: center;
   background-size: cover;
+  margin: auto;
+}
+
+.overlay {
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+  height: 575px;
+  width: 1150px;
+  display: flex;
 }
 
 .hero-text {
   flex-basis: calc(100% / 2);
-  color: white;
+  color: whitesmoke;
   padding-top: 3rem;
   padding-left: 5rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
 }
 
 .hero-text h1 {
-  line-height: 2.5rem;
+  line-height: 3rem;
   font-weight: inherit;
 }
 
 .hero-text p {
-  line-height: 1.5rem;
+  line-height: 2rem;
+  font-family: lato, sans-serif, serif;
+}
+
+.locations {
+  background-color: rgb(249, 248, 248);
+  height: 450px;
+  width: 1400px;
+}
+
+.loc-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: gray;
+  font-family: lato, sans-serif, serif;
+}
+
+.loc-row-1col {
+  flex-basis: 100%;
+  padding-left: 30rem;
+  padding-right: 30rem;
+  line-height: 2rem;
+}
+
+.loc-row-2col {
+  flex-basis: 50%;
+  padding: 5rem;
+}
+
+.learn-more {
+  height: 575px;
+  width: 1150px;
+  margin: auto;
+}
+
+.learn-more-row {
+  display: flex;
+}
+
+.lm-row-2col {
+  flex-basis: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
