@@ -1,17 +1,19 @@
 
 .container {
-  max-width: 1400px;
+  max-width: 1350px;
   margin: auto;
   padding-top: 30px;
 }
 
 .row {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
   justify-content: center;
 }
 
 .nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
   display: flex;
   align-items: center;
   max-width: 1150px;
@@ -69,6 +71,7 @@
   color: whitesmoke;
   font-size: 23px;
   margin-top: 1rem;
+  float: right;
 }
 
 .nav button {
@@ -90,16 +93,18 @@ hr {
 
 .hero {
   background: url("images/hero.jpg");
-  height: 575px;
+  height: 600px;
   width: 1150px;
   justify-content: center;
   background-size: cover;
-  margin: auto;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .overlay {
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
-  height: 575px;
+  height: 600px;
   width: 1150px;
   display: flex;
 }
@@ -124,9 +129,9 @@ hr {
 }
 
 .locations {
+  margin-top: 80px;
   background-color: rgb(249, 248, 248);
-  height: 450px;
-  width: 1400px;
+  height: 500px;
 }
 
 .loc-row {
@@ -135,25 +140,28 @@ hr {
   justify-content: center;
   text-align: center;
   color: gray;
-  font-family: lato, sans-serif, serif;
+  font-family: Geneva, Tahoma, sans-serif;
 }
 
 .loc-row-1col {
+  margin-top: 50px;
   flex-basis: 100%;
-  padding-left: 30rem;
-  padding-right: 30rem;
+  padding-left: 25rem;
+  padding-right: 25rem;
   line-height: 2rem;
+  font-size: 15px;
 }
 
 .loc-row-2col {
   flex-basis: 50%;
-  padding: 5rem;
+  padding: 2rem;
 }
 
 .learn-more {
-  height: 575px;
+  height: 75px;
   width: 1150px;
   margin: auto;
+  margin-top: 40px;
 }
 
 .learn-more-row {
@@ -164,5 +172,49 @@ hr {
   flex-basis: 50%;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  color: gray;
+}
+
+.co-info {
+  margin-top: 80px;
+  background-color: rgb(99, 98, 98);
+  height: 500px;
+  display: flex;
+}
+
+.co-info-4col {
+  flex-basis: calc(100% / 4);
+  text-align: left;
+  color: white;
+  padding-top: 8rem;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.co-info-4col-image {
+  padding-left: 5rem;
+}
+
+.white-logo {
+  max-height: 30px;
+  margin-bottom: 3rem;
+}
+
+.footer {
+  height: 150px;
+  width: 1350px;
+  margin: auto;
+  background-color: rgb(249, 248, 248);
+}
+
+.footer-row {
+  display: flex;
+  color: gray;
+  padding-left: 5rem;
+}
+
+.footer-row-2col {
+  margin-top: 30px;
+  flex-basis: calc(100% / 7);
+  justify-content: center;
+  align-items: center;
 }
