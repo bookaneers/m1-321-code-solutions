@@ -1,22 +1,8 @@
 var orderHistory = [
   {
     orderNumber: '001',
-    orderPlaced: '03 / 16 / 2021',
-    booksOrdered: [{
-      isbn: 124567890123,
-      author: 'Smith',
-      title: 'JS for Beginners',
-      price: 19.99,
-      coverImage: 'image'
-    }],
-
-    gamesOrdered: [{
-      skuNumber: 1234,
-      productDescription: 'GameX',
-      manufacturer: 'Nintendo',
-      price: 59.99,
-      coverImage: 'image'
-    }],
+    orderPlacedAt: '03 / 16 / 2021',
+    deliveredOn: '04 / 01 / 21',
     totalForTheOrder: 80.00,
     shipTo: {
       line1: '364 40th Street',
@@ -25,6 +11,18 @@ var orderHistory = [
       state: 'CA',
       zip: 94609
     },
-    deliveredOn: '04 / 01 / 21'
+    itemsOrdered: [{
+      isbn: 124567890123,
+      author: 'Smith',
+      title: 'JS for Beginners',
+      price: 19.99,
+      coverImage: 'image'
+    }, {
+      skuNumber: 1234,
+      productDescription: 'GameX',
+      manufacturer: 'Nintendo',
+      price: 59.99,
+      coverImage: 'image'
+    }]
   }
 ];
