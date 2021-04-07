@@ -1,0 +1,43 @@
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(237, 235, 235);
+}
+
+.row {
+  font-family: sans-serif;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.column-1-4 {
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column-1-4 h2 {
+  font-size: medium;
+  font-weight: bolder;
+}
+
+.phone-image {
+  width: 250px;
+  height: auto;
+}
+
+.icon-image {
+  width: 60px;
+  height: auto;
+}
+}
