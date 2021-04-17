@@ -14,5 +14,6 @@ console.dir($hint);
 var $paragraph = document.querySelectorAll('p');
 console.log($paragraph);
 
-var $link = document.querySelectorAll('.example-link');
-console.log($link);
+var $exampleLink = document.querySelectorAll('.example-link');
+console.log($exampleLink);
+
