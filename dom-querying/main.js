@@ -1,18 +1,18 @@
 
-var el1 = document.querySelector('h1');
-console.log(el1);
-console.dir(el1);
+var $heading = document.querySelector('h1');
+console.log($heading);
+console.dir($heading);
 
-var el2 = document.querySelector('#explanation');
-console.log(el2);
-console.dir(el2);
+var $explanation = document.querySelector('#explanation');
+console.log($explanation);
+console.dir($explanation);
 
-var el3 = document.querySelector('.hint');
-console.log(el3);
-console.dir(el3);
+var $hint = document.querySelector('.hint');
+console.log($hint);
+console.dir($hint);
 
-var el4 = document.querySelectorAll('p');
-console.log(el4);
+var $paragraph = document.querySelectorAll('p');
+console.log($paragraph);
 
-var el5 = document.querySelectorAll('.example-link');
-console.log(el5);
+var $exampleLink = document.querySelectorAll('.example-link');
+console.log($exampleLink);
