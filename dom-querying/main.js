@@ -16,3 +16,4 @@ console.log($paragraph);
 
 var $exampleLink = document.querySelectorAll('.example-link');
 console.log($exampleLink);
+
