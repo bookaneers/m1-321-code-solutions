@@ -1,0 +1,37 @@
+.sky {
+  background-color: rgb(252, 248, 219);
+  width: auto;
+  display: flex;
+  min-height: 90vh;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.sun {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(250, 234, 132);
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 0 10px 10px rgb(251, 240, 168);
+}
+
+.nightSky {
+  background-color: black;
+  width: auto;
+  display: flex;
+  min-height: 90vh;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.nightSun {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(29, 29, 29);
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: none;
+}
