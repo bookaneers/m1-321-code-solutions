@@ -1,9 +1,9 @@
 function handleFocus(event) {
-  console.log('focus event was fired');
+  console.log('Focus event was fired');
   console.log('event.target.name ' + event.target.name);
 }
 function handleBlur(event) {
-  console.log('blur event was fired');
+  console.log('Blur event was fired');
   console.log('blur.target.name ' + event.target.name);
 }
 function handleInput(event) {
